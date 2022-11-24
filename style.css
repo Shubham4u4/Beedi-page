@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("bomb.jpg");
+    background-size: cover;
+    font-family: 'Lato', sans-serif;;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    
+
+
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(to left, #86bbd8, #f8f7ff);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 25%;
+    text-align: center;
+    color: black;
+}
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a {
+    width: 25%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold
+}
+.menu:hover {
+    color: brown;
+    cursor: pointer;
+    
+}
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+
+}
+section h1 {
+    margin: 3px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+} section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+} section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+.bt1{
+   /* background-color: #00b894;*/
+    background: #fff;
+    color: black;
+}
+.bt1:hover {
+    cursor: pointer;
+    background: #cce3de;
+}
+.bt2 {
+    background:#90e0ef;
+    color: #000000;
+    
+
+}
+.bt2:hover {
+    background: #ffffff;
+    font-weight: bold;
+}
+#beedi {
+    background:linear-gradient(to left, rgb(188, 181, 181), aqua)
+}
+#beedi:hover {
+    cursor: pointer;
+    background: #83c5be;
+}
+.change-content after {
+    animation: changetext 10s infinite linear;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+}
+
+.beedi-foooter{
+    background: linear-gradient(to left, #)
+}
+.beedi-foooter p {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 8px;
+    letter-spacing: 4px;
+    font-size: larger;
+
+}
